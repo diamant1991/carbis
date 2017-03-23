@@ -17,4 +17,26 @@ $(document).ready(function(){
     nextText: '',
     prevText: '',
   });
+
+  $('.tel-input').inputmask("+7 (999) 999-99-99");
+
+  var $panel = $(".top-panel");
+
+  $(window).scroll(function(){
+    if ( $(this).scrollTop() > 300 ){
+      $panel.addClass("fixed");
+    } 
+    else {
+      $panel.removeClass("fixed");
+    }
+  });
+
+  $(".nav-menu a, .footer-menu ul a").click(function () {
+    elementClick = $(this).attr("href")
+    destination = $(elementClick).offset().top - 119;
+    $("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1100);
+    return false;
+  });
+
 });
+

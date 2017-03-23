@@ -13,58 +13,85 @@
 </head>
 <body>
   <div class="wrapper">
-    <header class="header">
-    	<div class="container">
-    		<div class="header-wrapp clearfix">
-    			<div class="pull-left">
-    				<div class="logo">
-    					<a href="#">
-    						<img src="img/logo.png" alt="">
-    					</a>
-    				</div>
-    			</div>
-    			<div class="pull-right">
-    				<div class="contact-tel pull-left">
-    					<div class="tel-item">
-    						8 (916)<b> 809-78-25</b>					
-    					</div>
-    					<div class="tel-text">
-    						<b>Есть вопросы? Звоните!</b> <br>
-    						Вы пока не наш клиент
-    					</div>
-    				</div>
-    				<div class="contact-tel pull-left">
-    					<div class="tel-item">
-    						8 (495) <b>740-49-91</b>				
-    					</div>
-    					<div class="tel-text">
-    						<b>Техническая поддержка</b> <br>
-    						Вы уже наш клиент
-    					</div>
-    				</div>
-    				<div class="contact-email pull-left clearfix">
-    					<div class="email-text">Пишите нам на <a href="mailto:info@carbis.ru">info@carbis.ru</a></div>
-    					<a href="#" class="btn btn-small pull-right">Перезвоните мне</a>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </header>
-    <nav class="nav">
-    	<div class="container">
-    		<ul class="nav-menu">
-    			<li><a href="#">Автоматизация</a></li>
-    			<li><a href="#">R-Keeper и ПО</a></li>
-    			<li><a href="#">Обслуживание</a></li>
-    			<li><a href="#">Обучение</a></li>
-    			<li><a href="#">Наши проекты</a></li>
-    			<li><a href="#">Оборудование</a></li>
-    			<li><a href="#">Наша компания</a></li>
-    			<li><a href="#">Статьи и новости</a></li>
-    			<li><a href="#">Контакты</a></li>
-    		</ul>
-    	</div>
-    </nav>
+    <div class="top-panel">
+      <header class="header">
+      	<div class="container">
+      		<div class="header-wrapp clearfix">
+      			<div class="pull-left">
+      				<div class="logo">
+      					<a href="#">
+      						<img src="img/logo.png" alt="">
+      					</a>
+      				</div>
+      			</div>
+      			<div class="pull-right">
+      				<div class="contact-tel pull-left">
+      					<div class="tel-item">
+      						8 (916)<b> 809-78-25</b>					
+      					</div>
+      					<div class="tel-text">
+      						<b>Есть вопросы? Звоните!</b> <br>
+      						Вы пока не наш клиент
+      					</div>
+      				</div>
+      				<div class="contact-tel pull-left">
+      					<div class="tel-item">
+      						8 (495) <b>740-49-91</b>				
+      					</div>
+      					<div class="tel-text">
+      						<b>Техническая поддержка</b> <br>
+      						Вы уже наш клиент
+      					</div>
+      				</div>
+      				<div class="contact-email pull-left clearfix">
+      					<div class="email-text">Пишите нам на <a href="mailto:info@carbis.ru">info@carbis.ru</a></div>
+      					<a href="#" class="btn btn-small pull-right">Перезвоните мне</a>
+      				</div>
+      			</div>
+      		</div>
+      		<div class="header-fixed clearfix">
+      			<div class="pull-left">
+      				<a href="#">
+      					<img src="img/logo-small.png" alt="">
+      				</a>
+      			</div>
+      			<div class="pull-right header-fixed__tel">
+      				<div class="contact-tel pull-left clearfix">
+      					<div class="tel-text middle">
+      						<b>Есть вопросы? Звоните!</b>
+      					</div>
+      					<div class="tel-item middle">
+      						8 (916)<b> 809-78-25</b>					
+      					</div>
+      				</div>
+      				<div class="contact-tel pull-left">
+      					<div class="tel-text middle">
+      						<b>Техническая поддержка</b>
+      					</div>
+      					<div class="tel-item middle">
+      						8 (495) <b>740-49-91</b>				
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </header>
+      <nav class="nav">
+      	<div class="container">
+      		<ul class="nav-menu">
+      			<li><a href="#automation">Автоматизация</a></li>
+      			<li><a href="#program">R-Keeper и ПО</a></li>
+      			<li><a href="#">Обслуживание</a></li>
+      			<li><a href="#">Обучение</a></li>
+      			<li><a href="#works">Наши проекты</a></li>
+      			<li><a href="#equip">Оборудование</a></li>
+      			<li><a href="#our-company">Наша компания</a></li>
+      			<li><a href="#article">Статьи и новости</a></li>
+      			<li><a href="#contacts">Контакты</a></li>
+      		</ul>
+      	</div>
+      </nav>
+    </div>
     <div class="main-banner" style="background-image: url(img/banner.jpg)">
       <div class="container">
         <div class="main-banner__text pull-left">
@@ -88,10 +115,10 @@
           <div class="form-wrapp">
             <form action="">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Введите ваш телефон">
+                <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Введите ваш телефон">
+                <input type="text" class="form-control" placeholder="Введите ваш email(желательно)">
               </div>
               <div class="form-group">
                 <input type="submit" value="Получить консультацию" class="btn btn-submit">
@@ -101,7 +128,7 @@
         </div>
       </div>
     </div>
-    <div class="advantage">
+    <div class="advantage" id="advantage">
       <div class="container">
         <div class="advantage-img pull-left">
           <img src="img/adv-girl.png" alt="">
@@ -185,7 +212,7 @@
         </div>
       </div>
     </div>
-    <div class="products">
+    <div class="products" id="automation">
       <div class="container">
         <h2 class="item-title">
           Вам нужна автоматизация бизнеса? 
@@ -200,7 +227,7 @@
                 <div class="products-text clearfix">
                   <div class="table-block">
                     <div class="block-vertical">
-                      <div class="products-name">Автоматизация ресторана</div>
+                      <div class="products-name"><a href="#">Автоматизация ресторана</a></div>
                       <a href="#" class="products-btn"></a>
                     </div>
                   </div>
@@ -217,7 +244,7 @@
                 <div class="products-text clearfix">
                   <div class="table-block">
                     <div class="block-vertical">
-                      <div class="products-name">Автоматизация <br> кафе</div>
+                      <div class="products-name"><a href="#">Автоматизация <br> кафе</a></div>
                       <a href="#" class="products-btn"></a>
                     </div>
                   </div>
@@ -234,7 +261,7 @@
                 <div class="products-text clearfix">
                   <div class="table-block">
                     <div class="block-vertical">
-                      <div class="products-name">Автоматизация <br> гостиниц</div>
+                      <div class="products-name"><a href="#">Автоматизация <br> гостиниц</a></div>
                       <a href="#" class="products-btn"></a>
                     </div>
                   </div>
@@ -251,7 +278,7 @@
                 <div class="products-text clearfix">
                   <div class="table-block">
                     <div class="block-vertical">
-                      <div class="products-name">Автоматизация <br> столовой</div>
+                      <div class="products-name"><a href="#">Автоматизация <br> столовой</a></div>
                       <a href="#" class="products-btn"></a>
                     </div>
                   </div>
@@ -268,7 +295,7 @@
                 <div class="products-text clearfix">
                   <div class="table-block">
                     <div class="block-vertical">
-                      <div class="products-name">Автоматизация <br> бара</div>
+                      <div class="products-name"><a href="#">Автоматизация <br> бара</a></div>
                       <a href="#" class="products-btn"></a>
                     </div>
                   </div>
@@ -285,7 +312,7 @@
                 <div class="products-text clearfix">
                   <div class="table-block">
                     <div class="block-vertical">
-                      <div class="products-name">Автоматизация <br> фитнес клубо</div>
+                      <div class="products-name"><a href="#">Автоматизация <br> фитнес клубо</a></div>
                       <a href="#" class="products-btn"></a>
                     </div>
                   </div>
@@ -302,7 +329,7 @@
                 <div class="products-text clearfix">
                   <div class="table-block">
                     <div class="block-vertical">
-                      <div class="products-name">Автоматизация <br> фас-фуда</div>
+                      <div class="products-name"><a href="#">Автоматизация <br> фас-фуда</a></div>
                       <a href="#" class="products-btn"></a>
                     </div>
                   </div>
@@ -319,7 +346,7 @@
                 <div class="products-text clearfix">
                   <div class="table-block">
                     <div class="block-vertical">
-                      <div class="products-name">Автоматизация <br> кинотеатров</div>
+                      <div class="products-name"><a href="#">Автоматизация <br> кинотеатров</a></div>
                       <a href="#" class="products-btn"></a>
                     </div>
                   </div>
@@ -336,7 +363,7 @@
                 <div class="products-text clearfix">
                   <div class="table-block">
                     <div class="block-vertical">
-                      <div class="products-name">Автоматизация <br> бильярда</div>
+                      <div class="products-name"><a href="#">Автоматизация <br> бильярда</a></div>
                       <a href="#" class="products-btn"></a>
                     </div>
                   </div>
@@ -353,7 +380,7 @@
                 <div class="products-text clearfix">
                   <div class="table-block">
                     <div class="block-vertical">
-                      <div class="products-name">Автоматизация игровых <br> детских центров</div>
+                      <div class="products-name"><a href="#">Автоматизация игровых <br> детских центров</a></div>
                       <a href="#" class="products-btn"></a>
                     </div>
                   </div>
@@ -370,7 +397,7 @@
                 <div class="products-text clearfix">
                   <div class="table-block">
                     <div class="block-vertical">
-                      <div class="products-name">Автоматизация <br> боулинга</div>
+                      <div class="products-name"><a href="#">Автоматизация <br> боулинга</a></div>
                       <a href="#" class="products-btn"></a>
                     </div>
                   </div>
@@ -387,7 +414,7 @@
                 <div class="products-text clearfix">
                   <div class="table-block">
                     <div class="block-vertical">
-                      <div class="products-name">Автоматизация <br> ночного клуба</div>
+                      <div class="products-name"><a href="#">Автоматизация <br> ночного клуба</a></div>
                       <a href="#" class="products-btn"></a>
                     </div>
                   </div>
@@ -409,7 +436,7 @@
         <a href="#" class="btn btn-link">Получите бесплатную консультацию</a>
       </div>
     </div>
-    <div class="program">
+    <div class="program" id="program">
       <div class="container">
         <h2 class="item-title">
           Вы планируете внедрение <br> новых программ? 
@@ -488,7 +515,7 @@
         </div>
       </div>
     </div>
-    <div class="equip">
+    <div class="equip" id="equip">
       <div class="container">
         <div class="equip-title">
           <h2 class="item-title middle">
@@ -582,7 +609,7 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container" id="services">
         <h2 class="item-title">
           Чем еще мы можем быть вам полезны
         </h2>
@@ -690,7 +717,7 @@
         </div>
       </div>
     </div>
-    <div class="development" style="background-image: url(img/develop-img.jpg)">
+    <div class="development" id="development" style="background-image: url(img/develop-img.jpg)">
       <div class="container">
         <h2 class="item-title">
           Вам нужна индивидуальная разработка <br>программного обеспечения? 
@@ -735,7 +762,7 @@
         </div>
       </div>
     </div>
-    <div class="works">
+    <div class="works" id="works">
       <div class="container">
         <h2 class="item-title">
           За 10 лет работы мы выполнили <br>более 500 проектов
@@ -982,7 +1009,7 @@
           <div class="form-wrapp">
             <form action="">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Введите ваш телефон">
+                <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Введите ваш email(желательно)">
@@ -995,7 +1022,7 @@
         </div>
       </div>
     </div>
-    <div class="work-info">
+    <div class="work-info" id="our-company">
       <div class="container">
         <h2 class="item-title">
           Работаем с проектами любой сложности
@@ -1212,7 +1239,7 @@
           <form action="">
             <div class="communication-form-wrapp flex">
               <div class="communication-form__item">
-                <input type="text" class="form-control" placeholder="Введите ваш телефон">
+                <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
               </div>
               <div class="communication-form__item">
                 <input type="text" class="form-control" placeholder="Ваш e-mail (желательно)">
@@ -1225,7 +1252,7 @@
         </div>
       </div>
     </div>
-    <div class="article">
+    <div class="article" id="article">
       <div class="container clearfix">
         <div class="pull-left article-col">
           <h2 class="item-title">
@@ -1371,7 +1398,7 @@
         </p>
       </div>
     </div>
-    <div class="contacts">
+    <div class="contacts" id="contacts">
       <div class="container clearfix">
         <div class="pull-left contacts-text">
           <h2 class="item-title">
@@ -1428,10 +1455,10 @@
           <div class="form-wrapp">
             <form action="">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Введите ваш телефон">
+                <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Введите ваш телефон">
+                <input type="text" class="form-control" placeholder="Введите email(желательно)">
               </div>
               <div class="form-group">
                 <input type="submit" value="Получить консультацию" class="btn btn-submit">
@@ -1464,13 +1491,13 @@
   					Услуги
   				</div>
   				<ul>
-  					<li><a href="#">Автоматизация</a></li>
-  					<li><a href="#">Программы и их внедрение</a></li>
-  					<li><a href="#">POS-оборудование</a></li>
-  					<li><a href="#">Дополнительные услуги</a></li>
+  					<li><a href="#automation">Автоматизация</a></li>
+  					<li><a href="#program">Программы и их внедрение</a></li>
+  					<li><a href="#equip">POS-оборудование</a></li>
+  					<li><a href="#services">Дополнительные услуги</a></li>
   					<li><a href="#">Обслужование</a></li>
   					<li><a href="#">Обучение</a></li>
-  					<li><a href="#">Разработка ПО для R-Keeper и Storehouse</a></li>
+  					<li><a href="#development">Разработка ПО для R-Keeper и Storehouse</a></li>
   				</ul>
   			</div>
   			<div class="footer-menu">
@@ -1480,10 +1507,10 @@
   				<ul>
   					<li><a href="#">Портфолио</a></li>
   					<li><a href="#">Команда</a></li>
-  					<li><a href="#">Ваши выгоды</a></li>
+  					<li><a href="#advantage">Ваши выгоды</a></li>
   					<li><a href="#">Сравниение Iiko и R-Keeper</a></li>
-  					<li><a href="#">Статьи</a></li>
-  					<li><a href="#">Новости</a></li>
+  					<li><a href="#article">Статьи</a></li>
+  					<li><a href="#article">Новости</a></li>
   					<li><a href="#">Карта сайта</a></li>
   				</ul>
   			</div>
