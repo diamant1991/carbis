@@ -45,7 +45,7 @@
       				</div>
       				<div class="contact-email pull-left clearfix">
       					<div class="email-text">Пишите нам на <a href="mailto:info@carbis.ru">info@carbis.ru</a></div>
-      					<a href="#" class="btn btn-small pull-right">Перезвоните мне</a>
+      					<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-small pull-right">Перезвоните мне</a>
       				</div>
       			</div>
       		</div>
@@ -433,7 +433,7 @@
         <div class="cons-text">
           Оставьте заявку прямо сейчас и наш специалист перезвонит вам в течение 3 минут
         </div>
-        <a href="#" class="btn btn-link">Получите бесплатную консультацию</a>
+        <a href="#" class="btn btn-link" data-toggle="modal" data-target="#modal2">Получите бесплатную консультацию</a>
       </div>
     </div>
     <div class="program" id="program">
@@ -443,74 +443,76 @@
         </h2>
         <div class="program-wrapp clearfix">
           <div class="col-xs-6">
-            <div class="row program-item">
-              <div class="table-block">
-                <div class="block-vertical">
-                  <div class="ok-icon">
-                    <img src="img/ok.png" alt="">
+            <a href="#">
+              <div class="row program-item">
+                <div class="table-block">
+                  <div class="block-vertical">
+                    <div class="ok-icon"></div>
+                    <span class="program-link">R-Keeper 7</span>
                   </div>
-                  <a href="#" class="program-link">R-Keeper 7</a>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col-xs-6">
-            <div class="row program-item">
-              <div class="table-block">
-                <div class="block-vertical">
-                  <div class="ok-icon">
-                    <img src="img/ok.png" alt="">
+            <a href="#">
+              <div class="row program-item">
+                <div class="table-block">
+                  <div class="block-vertical">
+                    <div class="ok-icon"></div>
+                    <a href="#" class="program-link">Storehouse 4/5</a>
                   </div>
-                  <a href="#" class="program-link">Storehouse 4/5</a>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col-xs-6">
-            <div class="row program-item">
-              <div class="table-block">
-                <div class="block-vertical">
-                  <div class="ok-icon">
-                    <img src="img/ok.png" alt="">
+            <a href="#">
+              <div class="row program-item">
+                <div class="table-block">
+                  <div class="block-vertical">
+                    <div class="ok-icon"></div>
+                    <a href="#" class="program-link">Дисконтная система R-Keeper</a>
                   </div>
-                  <a href="#" class="program-link">Дисконтная система R-Keeper</a>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col-xs-6">
-            <div class="row program-item">
-              <div class="table-block">
-                <div class="block-vertical">
-                  <div class="ok-icon">
-                    <img src="img/ok.png" alt="">
+            <a href="#">
+              <div class="row program-item">
+                <div class="table-block">
+                  <div class="block-vertical">
+                    <div class="ok-icon"></div>
+                    <a href="#" class="program-link">Restalytica</a>
                   </div>
-                  <a href="#" class="program-link">Restalytica</a>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col-xs-6">
-            <div class="row program-item">
-              <div class="table-block">
-                <div class="block-vertical">
-                  <div class="ok-icon">
-                    <img src="img/ok.png" alt="">
+            <a href="#">
+              <div class="row program-item">
+                <div class="table-block">
+                  <div class="block-vertical">
+                    <div class="ok-icon"></div>
+                    <a href="#" class="program-link">Plazius</a>
                   </div>
-                  <a href="#" class="program-link">Plazius</a>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col-xs-6">
-            <div class="row program-item">
-              <div class="table-block">
-                <div class="block-vertical">
-                  <h4>Получите <br> <b>бесплатную консультацию</b><br> по программному обеспечению</h4>
-                  <a href="#" class="btn btn-link">Получить консультацию</a>
+            <a href="#">
+              <div class="row program-item">
+                <div class="table-block">
+                  <div class="block-vertical">
+                    <h4>Получите <br> <b>бесплатную консультацию</b><br> по программному обеспечению</h4>
+                    <a href="#" class="btn btn-link" data-toggle="modal" data-target="#modal3">Получить консультацию</a>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -758,7 +760,7 @@
           <h3>
             Получите<b> бесплатную консультацию </b> <br>по разработке
           </h3>
-          <a href="#" class="btn btn-link">Получить консультацию</a>
+          <a href="#" class="btn btn-link" data-toggle="modal" data-target="#modal4">Получить консультацию</a>
         </div>
       </div>
     </div>
@@ -1517,6 +1519,287 @@
   		</div>
   	</div>
   </footer>
+  
+  
+  <!-- Modal -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="main-banner__form modal-form">
+              <div class="modal-close" data-dismiss="modal" aria-label="Close"></div>
+              <div class="modal-form-content">
+                <h4 class="modal-title">Закажите обратный звонок</h4>
+                <div class="modal-text">
+                  Оставьте заявку прямо сейчас и наш специалист перезвонит вам в течение 3 минут
+                </div>
+                <div class="form-wrapp">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Введите email(желательно)">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Заказать звонок" class="btn btn-submit">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="main-banner__form modal-form">
+              <div class="modal-close" data-dismiss="modal" aria-label="Close"></div>
+              <div class="modal-form-content">
+                <h4 class="modal-title">Получите бесплатную консультацию по автоматизации</h4>
+                <div class="modal-text">
+                  Оставьте заявку прямо сейчас и наш специалист перезвонит вам в течение 3 минут
+                </div>
+                <div class="form-wrapp">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Введите email(желательно)">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Получить консультацию" class="btn btn-submit">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="main-banner__form modal-form">
+              <div class="modal-close" data-dismiss="modal" aria-label="Close"></div>
+              <div class="modal-form-content">
+                <h4 class="modal-title">Получите бесплатную консультацию по программному обеспечению</h4>
+                <div class="modal-text">
+                  ООставьте заявку прямо сейчас и наш специалист перезвонит вам в течение 3 минут
+                </div>
+                <div class="form-wrapp">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Введите email(желательно)">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Получить консультацию" class="btn btn-submit">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="main-banner__form modal-form">
+              <div class="modal-close" data-dismiss="modal" aria-label="Close"></div>
+              <div class="modal-form-content">
+                <h4 class="modal-title">Получите бесплатную консультацию по разработке</h4>
+                <div class="modal-text">
+                  Оставьте заявку прямо сейчас и наш специалист перезвонит вам в течение 3 минут
+                </div>
+                <div class="form-wrapp">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Введите email(желательно)">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Получить консультацию" class="btn btn-submit">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="modal fade" id="modal5" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="main-banner__form modal-form">
+              <div class="modal-close" data-dismiss="modal" aria-label="Close"></div>
+              <div class="modal-form-content">
+                <h4 class="modal-title">Получить консультацию про пакет обслуживания «Бизнес-ланч»</h4>
+                <div class="modal-text">
+                  Оставьте заявку прямо сейчас и наш специалист перезвонит вам в течение 3 минут
+                </div>
+                <div class="form-wrapp">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Введите email(желательно)">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Получить консультацию" class="btn btn-submit">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="modal fade" id="modal6" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="main-banner__form modal-form">
+              <div class="modal-close" data-dismiss="modal" aria-label="Close"></div>
+              <div class="modal-form-content">
+                <h4 class="modal-title">Получить консультацию про пакет обслуживания «Здоровое питание»</h4>
+                <div class="modal-text">
+                  Оставьте заявку прямо сейчас и наш специалист перезвонит вам в течение 3 минут
+                </div>
+                <div class="form-wrapp">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Введите email(желательно)">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Получить консультацию" class="btn btn-submit">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="modal fade" id="modal7" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="main-banner__form modal-form">
+              <div class="modal-close" data-dismiss="modal" aria-label="Close"></div>
+              <div class="modal-form-content">
+                <h4 class="modal-title">Получите бесплатную консультацию по обучению персонала</h4>
+                <div class="modal-text">
+                  Оставьте заявку прямо сейчас и наш специалист перезвонит вам в течение 3 минут
+                </div>
+                <div class="form-wrapp">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Введите email(желательно)">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Получить консультацию" class="btn btn-submit">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="modal fade" id="modal8" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="main-banner__form modal-form">
+              <div class="modal-close" data-dismiss="modal" aria-label="Close"></div>
+              <div class="modal-form-content">
+                <h4 class="modal-title">Хотите купить видеокурс по StoreHouse?</h4>
+                <div class="modal-text">
+                  Оставьте заявку прямо сейчас и наш специалист перезвонит вам в течение 3 минут
+                </div>
+                <div class="form-wrapp">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Введите email(желательно)">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Получить консультацию" class="btn btn-submit">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="modal fade" id="modal9" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="main-banner__form modal-form">
+              <div class="modal-close" data-dismiss="modal" aria-label="Close"></div>
+              <div class="modal-form-content">
+                <h4 class="modal-title">Хотите заказать Моноблок Sam4s PT-3700?</h4>
+                <div class="modal-text">
+                  Оставьте заявку прямо сейчас и наш специалист перезвонит вам в течение 3 минут
+                </div>
+                <div class="form-wrapp">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" class="form-control tel-input" placeholder="Введите ваш телефон">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Введите email(желательно)">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Получить консультацию" class="btn btn-submit">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <script src="js/vendor.js"></script>
   <script src="js/main.js"></script>
