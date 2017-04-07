@@ -1677,8 +1677,7 @@ h1 {
         background: url(../img/ol.png) no-repeat; }
 
 .contacts {
-  padding-top: 100px;
-  padding-bottom: 130px; }
+  padding: 100px 0; }
 
 .contacts-item {
   position: relative;
@@ -1994,7 +1993,10 @@ h1 {
   font-family: "BerlingskeSerif-XBd"; }
 
 .content {
-  padding: 80px 0; }
+  padding: 45px 0; }
+
+.site-map {
+  padding: 40px 0; }
 
 .site-map__item {
   margin-bottom: 60px; }
@@ -2087,3 +2089,151 @@ img {
   margin-bottom: 45px;
   width: 100%;
   padding: 50px 30px; }
+
+.column-serv {
+  margin-bottom: 40px; }
+
+.column-serv__item {
+  font-size: 16px; }
+
+.column-serv__item {
+  margin-left: 5px; }
+
+.breadcrumb {
+  font-size: 14px;
+  color: #747474;
+  margin-bottom: 40px; }
+  .breadcrumb > li {
+    float: left;
+    position: relative; }
+    .breadcrumb > li + li {
+      margin-left: 35px; }
+      .breadcrumb > li + li:before {
+        content: "";
+        display: block;
+        width: 8px;
+        height: 14px;
+        background: url(../img/bread-arrow.png) no-repeat;
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        left: -20px; }
+    .breadcrumb > li > a {
+      color: #2b2b2b; }
+      .breadcrumb > li > a:hover {
+        color: #1fb454; }
+
+.product {
+  padding: 35px;
+  border: 1px solid #e3eaed;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 1px 27px 0px rgba(224, 224, 224, 0.58);
+  box-shadow: 0px 1px 27px 0px rgba(224, 224, 224, 0.58); }
+
+.product-img {
+  width: 30%;
+  text-align: center; }
+
+.product-descr {
+  width: 60%;
+  padding-right: 40px; }
+
+.product-descr p {
+  font-size: 16px;
+  color: #747474;
+  margin-bottom: 20px;
+  line-height: 1.5; }
+
+.product-name {
+  font-size: 24px;
+  font-family: "MuseoSansCyrl700";
+  margin-bottom: 30px; }
+
+.product-price {
+  font-size: 22px;
+  font-family: "MuseoSansCyrl700"; }
+
+.tab-content > .tab-pane {
+  display: none; }
+
+.tab-content > .active {
+  display: block; }
+
+.nav-tabs {
+  font-size: 16px;
+  font-family: "MuseoSansCyrl700";
+  border-bottom: 1px solid #d5d5d5; }
+  .nav-tabs > li {
+    float: left;
+    position: relative; }
+    .nav-tabs > li.active:after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      z-index: 2;
+      left: 0;
+      bottom: -1px;
+      background: #1fb454; }
+    .nav-tabs > li.active > a {
+      color: #1fb454; }
+    .nav-tabs > li > a {
+      display: block;
+      padding: 15px;
+      color: #2b2b2b; }
+
+.product-top {
+  margin-bottom: 40px; }
+
+.tab-content {
+  padding: 30px 0;
+  margin-bottom: 20px; }
+
+.tab-form-group {
+  width: 225px; }
+  .tab-form-group + .tab-form-group {
+    margin-left: 10px; }
+
+.tab-form-group_submit {
+  width: 250px; }
+  .tab-form-group_submit .btn {
+    display: block;
+    width: 100%; }
+
+.tab-text {
+  font-size: 16px;
+  color: #747474;
+  margin-bottom: 25px; }
+
+.tab-title {
+  font-size: 20px;
+  font-family: "MuseoSansCyrl700";
+  margin-bottom: 15px; }
+
+.char-item {
+  margin-bottom: 15px;
+  display: inline-block;
+  border-bottom: 2px dotted #757575; }
+
+.char-left {
+  font-size: 16px;
+  color: #2f2f2f;
+  width: 350px; }
+
+.char-right {
+  font-size: 16px;
+  color: #747474;
+  position: relative;
+  z-index: 2;
+  padding-left: 2px;
+  background: #fff;
+  top: 6px;
+  display: inline-block; }
+
+.parameter {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  top: 5px;
+  display: inline-block; }
